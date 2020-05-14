@@ -32,7 +32,7 @@ git push -u origin master
 
 # …or push an existing repository from the command line
 git remote add origin https://github.com/JAnDo-IT/github-upload.git \
-git push -u origin master \
+git push -u origin master
 
 #…or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project. \
@@ -44,7 +44,7 @@ In your command line, navigate to your project directory. Type git init to initi
 Type git remote add origin https://github.com/JAnDo-IT/github-upload.git \
 Type git add . \
 Type git commit -m "initializing repository" \
-Type git push -u origin master to push the files you have locally to the remote on GitHub. (You may be asked to log in.) \
+Type git push -u origin master to push the files you have locally to the remote on GitHub. (You may be asked to log in.)
 
 # Using Visual Studio Code
 1. In Visual Studio Code, open the folder for your project.
