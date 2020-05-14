@@ -23,7 +23,7 @@ Finally Configure the Global File, my example is General an for Python
 # …or create a new repository on the command line
 git config --global user.email "youruser@yourdomain.ext" \
 git config --global user.user "your user at github" \
-echo "# github-upload" >> README.md \ # name your repo instead of github-upload
+echo "# github-upload" >> README.md ##  name your repo instead of github-upload ##
 git init \
 git add README.md \
 git commit -m "Initial The Way Projectcommit" \
