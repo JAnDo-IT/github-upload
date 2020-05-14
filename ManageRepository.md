@@ -6,7 +6,7 @@
 ###### https://help.github.com/en/github/using-git/ignoring-files
 ###### https://github.com/JAnDo-IT/github-upload.git
 
-### If Needed create your global ignore file, in PowerShell Everything in single Q is a command
+### If Needed create your global ignore file, in PowerShell Everything in single quotes is a command
 'Set-Location $Env:USERPROFILE' \
 '$loc = Get-Location \
 '$loc' \
