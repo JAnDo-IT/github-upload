@@ -1,5 +1,5 @@
 
-#create a .gitignore file or global file
+# create a .gitignore file or global file
 https://git-scm.com/docs/gitignore
 https://gist.github.com/octocat/9257657
 "https://github.com/github/gitignore"
