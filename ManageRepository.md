@@ -1,10 +1,10 @@
 
 # create a .gitignore file or global file
-https://git-scm.com/docs/gitignore
-https://gist.github.com/octocat/9257657
-"https://github.com/github/gitignore"
-https://help.github.com/en/github/using-git/ignoring-files
-https://github.com/JAnDo-IT/github-upload.git
+###### https://git-scm.com/docs/gitignore
+###### https://gist.github.com/octocat/9257657
+###### "https://github.com/github/gitignore"
+###### https://help.github.com/en/github/using-git/ignoring-files
+###### https://github.com/JAnDo-IT/github-upload.git
 
 # …or create a new repository on the command line
 git config --global user.email "jandoz.it@gmail.com"
