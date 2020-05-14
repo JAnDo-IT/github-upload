@@ -51,7 +51,7 @@ Type git push -u origin master to push the files you have locally to the remote 
 2. Click the icon on the left for Source Control.
 3. On the top of the Source Control panel, click the Git icon.
 4. If the files you see match the repository you want to create, click Initialize Repository.
-5. Next to the word CHANGES, click the symbol of the plus sign to stage all of the changes.
+5. Next to the word CHANGES, click the symbol of the plus sign to stage all of the changes. \
 	This is part of the two stage commit. You can use this staging function to create meaningful commits throughout the development process.
 6. In the box in the Source Control panel, type a commit message. Something like "initial commit - moving project" could work.
 7. Click the checkmark at the top of the Source Control panel.
