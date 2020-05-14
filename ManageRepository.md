@@ -2,9 +2,23 @@
 # create a .gitignore file or global file
 ###### https://git-scm.com/docs/gitignore
 ###### https://gist.github.com/octocat/9257657
-###### "https://github.com/github/gitignore"
+###### https://github.com/github/gitignore
 ###### https://help.github.com/en/github/using-git/ignoring-files
 ###### https://github.com/JAnDo-IT/github-upload.git
+
+### If Needed create tour global ignore file, in PowerShell. Everything in single Q is a command
+'Set-Location $Env:USERPROFILE'
+'$loc = Get-Location
+'$loc'
+First lest create the file:
+'New-Item .gitignore_global'
+
+Lets try to create the git global ignore file:
+'git config --global core.excludesfile "$Env:USERPROFILE\.gitignore_global' # It configures succesfully
+Test if create it:
+'git config --global core.excludesfile'
+Finally Configure the Global File, my example is General an for Python
+
 
 # …or create a new repository on the command line
 git config --global user.email "jandoz.it@gmail.com"
