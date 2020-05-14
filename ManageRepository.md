@@ -11,13 +11,13 @@
 '$loc = Get-Location \
 '$loc' \
 First lest create the file: \
-'New-Item .gitignore_global' \
+'New-Item .gitignore_global'
 
 Lets try to create the git global ignore file: \
 'git config --global core.excludesfile "$Env:USERPROFILE\.gitignore_global' # It configures succesfully \
 Test if create it: \
 'git config --global core.excludesfile' \
-Finally Configure the Global File, my example is General an for Python \
+Finally Configure the Global File, my example is General an for Python
 
 
 # …or create a new repository on the command line
