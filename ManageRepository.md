@@ -21,30 +21,30 @@ Finally Configure the Global File, my example is General an for Python
 
 
 # …or create a new repository on the command line
-git config --global user.email "jandoz.it@gmail.com"
-git config --global user.user "JAnDo-IT"
-echo "# github-upload" >> README.md
-git init
-git add README.md
-git commit -m "Initial The Way Projectcommit"
-git remote add origin https://github.com/JAnDo-IT/github-upload.git
+git config --global user.email "youruser@yourdomain.ext" \
+git config --global user.user "your user at github" \
+echo "# github-upload" >> README.md \
+git init \
+git add README.md \
+git commit -m "Initial The Way Projectcommit" \
+git remote add origin https://github.com/JAnDo-IT/github-upload.git \
 git push -u origin master
 
 # …or push an existing repository from the command line
-git remote add origin https://github.com/JAnDo-IT/github-upload.git
-git push -u origin master
+git remote add origin https://github.com/JAnDo-IT/github-upload.git \
+git push -u origin master \
 
 #…or import code from another repository
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
-https://github.com/JAnDo-IT/github-upload/import
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project. \
+https://github.com/JAnDo-IT/github-upload/import 
 
 # Using the command line
 
-In your command line, navigate to your project directory. Type git init to initialize the directory as a Git repository.
-Type git remote add origin https://github.com/JAnDo-IT/github-upload.git
-Type git add .
-Type git commit -m "initializing repository"
-Type git push -u origin master to push the files you have locally to the remote on GitHub. (You may be asked to log in.)
+In your command line, navigate to your project directory. Type git init to initialize the directory as a Git repository. \
+Type git remote add origin https://github.com/JAnDo-IT/github-upload.git \
+Type git add . \
+Type git commit -m "initializing repository" \
+Type git push -u origin master to push the files you have locally to the remote on GitHub. (You may be asked to log in.) \
 
 # Using Visual Studio Code
 1. In Visual Studio Code, open the folder for your project.
