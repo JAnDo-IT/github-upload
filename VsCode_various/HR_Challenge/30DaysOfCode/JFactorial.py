@@ -1,22 +1,21 @@
 # Day 5 - Loop
 
 def Loop(n):
-    i=1
+    x=0
     y=1
-    r=10
-    for i in range(r):
-        i+=1
-        y=n*i
-        print("{} x {} = {}".format(n, i, y))
+    for i in range(n):
+        x+=1
+        y*=x
+        print(x)
     
     return y
 
 if __name__ == "__main__":
     n = int(input())
-    #print()
+    print()
     if (n>=2 and n<=20):
         res=Loop(n)
-        #print()
-        #print(res)
+        print()
+        print(res)
     else:
         print("n out of calculation range")
