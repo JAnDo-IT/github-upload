@@ -120,6 +120,7 @@ Paso 4: Usa la instrucción del para eliminar a Stu Sutcliffe y Pete Best de la 
 Paso 5: Usa el método insert() para agregar a Ringo Starr al principio de la lista.
 """
 # paso 1
+"""
 beatles=[]
 print("Paso 1:", beatles)
 
@@ -150,3 +151,129 @@ print("Paso 5:", beatles)
 
 # probando la longitud de la lista
 print("Los Fab", len(beatles))
+"""
+
+################### Lab 1
+print()
+miLista = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+print("La lista con elementos duplicados:")
+print(miLista)
+
+# Eliminar duplicados
+rec = len(miLista)
+unicos=[]
+unicos.append(miLista[0])
+
+for i in range(rec):
+    if miLista[i] not in unicos:
+        unicos.append(miLista[i])
+
+print("La lista solo con elementos únicos:")
+print(unicos)
+print()
+
+# Ejem 1
+PEON_BLANCO = "W"
+fila = [PEON_BLANCO for i in range(8)]
+print("Fila de peones blancos ajedrez")
+print(fila)
+# Ejemp Potencias dos
+dos = [2 ** i for i in range(8)]
+print("Potencias dos")
+print(dos)
+# Ejem 2
+cuadrados = [x ** 2 for x in range(10)]
+print("Cuadrados")
+print(cuadrados)
+probabilidades = [x for x in cuadrados if x % 2 != 0]
+print("Impares")
+print(probabilidades)
+
+print()
+
+tablero  = []
+EMPTY = "W"
+
+for i in range(8):
+    fila = [EMPTY for i in range(8)]
+    tablero.append(fila)
+
+print(tablero)
+print()
+tablero1 = [[EMPTY for i in range(8)] for j in range(8)]
+print(tablero1)
+print()
+
+#And now .... 
+EMPTY = "-"
+TORRE = "TORRE"
+tablero = []
+
+for i in range(8):
+    fila = [EMPTY for i in range(8)]
+    tablero.append (fila)
+
+tablero[0][0] = TORRE
+tablero[0][7] = TORRE
+tablero[7][0] = TORRE
+tablero[7][7] = TORRE
+
+print(tablero)
+
+########## Temperaturas cada hora en un mes por dia
+temps = [[0.0 for h in range(24)] for d in range (31)]
+#
+# la matriz se actualiza mágicamente aquí
+#
+
+suma = 0.0
+
+for day in temps:
+    suma += day[11]
+
+promedio= suma / 31
+
+print()
+print("Temperatura promedio al mediodía:", promedio)
+
+temps = [[0.0 for h in range (24)] for d in range (31)]
+#
+# la matriz se actualiza mágicamente aquí
+#
+
+mas_alta = -100.0
+
+for day in temps:
+    for temp in day:
+        if temp > mas_alta:
+            mas_alta = temp
+
+print()
+print("La temperatura más alta fue:", mas_alta)
+
+temps = [[0.0 for h in range(24)] for d in range(31)]
+#
+# la matriz se actualiza mágicamente aquí
+#
+
+hotDays = 0
+
+for day in temps:
+    if day[11] > 20.0:
+        hotDays += 1
+
+print(hotDays, " fueron los días calurosos.")
+
+### Vacantes en hotel
+
+habitaciones =[[[False for r in range(20)] for f in range(15)] for t in range(3)]
+
+vacante = 0
+
+for numeroHabitacion in range(20):
+    if not habitaciones[2][14][numeroHabitacion]:
+        vacante += 1
+
+print()
+print("Vacantes en el hotel: ", vacante)
+print()
