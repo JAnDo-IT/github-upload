@@ -1,5 +1,4 @@
 # Day 5 - Loop
-
 def Loop(n):
     i=1
     y=1
